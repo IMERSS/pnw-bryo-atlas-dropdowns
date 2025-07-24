@@ -53,7 +53,7 @@ menu:
   main:
     - identifier: documentation
       name: Documentation
-      pageRef: /docs
+      pageRef: /documentation
       weight: 1
     - identifier: showcase
       name: Showcase
