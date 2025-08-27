@@ -1,11 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IMERSS – Blog</title>
+    <title>Biodiversity Change in the Salish Sea – Blog</title>
     <link>/blog/</link>
-    <description>Recent content in Blog on IMERSS</description>
+    <description>Recent content in Blog on Biodiversity Change in the Salish Sea</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
