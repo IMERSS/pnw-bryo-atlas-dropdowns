@@ -7,9 +7,41 @@ table {
 
 :root {
     --bs-body-font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --navbar-height: 10rem;
+    /** This only controls the bizarre height calculation for the page **/
+    --navbar-height: 12rem;
 
     font-family: var(--bs-body-font-family)
+}
+
+body {
+    background-color: #184E62;
+    color: #FDF2CE;
+}
+
+/** Override absolutely ridiculous tailwind hardcoded content colour **/
+main .content h3, main.content h2, main h1 {
+    color: #FDF2CE !important;
+}
+
+.imerss-main {
+    display: flex;
+}
+
+.imerss-map {
+    width: 60%;
+    background: url("../images/salish-sea.jpg") no-repeat;
+    background-size: cover;
+    z-index: 5;
+}
+
+
+/** Defeat side matter which screws up layout when page is wide **/
+.xl\:hx-block {
+    display: none !important;
+}
+
+.imerss-page {
+    width: 40%;
 }
 
 .imerss-navbar-title {
@@ -35,10 +67,18 @@ nav a {
     position: relative;
 }
 
-.imerss-navbar {
-    background: url("../../static/images/imerss-header-cropped.jpg") no-repeat;
+.imerss-navbar-background {
+    background: url("../images/imerss-header-cropped.jpg") no-repeat;
     background-size: cover;
-    height: 80px
+    height: 160px;
+    width: 100%;
+    position: fixed;
+}
+
+.imerss-navbar {
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
 }
 
 /* Weird trick inherited from docsy for filtering background image */
@@ -50,27 +90,37 @@ nav a {
     background-color: #184E6280;
 }
 
-main {
-    background-color: #184E62;
-    color: #FDF2CE;
-}
-
-/** Override absolutely ridiculous tailwind hardcoded content colour **/
-main .content h3 {
-    color: #FDF2CE;
-}
-
-.imerss-navbar a {
-    justify-content: space-between;
+.imerss-navbar a, .imerss-subnav a, .imerss-subnav .search-wrapper {
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .imerss-navbar img {
     margin-right: 12px;
-    margin-top: 8px;
 }
 
 .imerss-navbar span {
     margin-left: 16px;
+}
+
+.imerss-subnav {
+    position: relative;
+    font-size: 16px;
+}
+
+.imerss-subnav::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #184E62b0;
+}
+
+
+
+footer {
+    color: black;
+}
+
+.imerss-copyright {
+    padding: 1rem;
 }

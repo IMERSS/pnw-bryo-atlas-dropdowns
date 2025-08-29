@@ -42,6 +42,7 @@ markup:
           inline: [['\(', '\)']]
         enable: true
 
+
 enableInlineShortcodes: true
 
 menu:
@@ -90,6 +91,9 @@ menu:
 params:
   description: Biodiversity Change in the Salish Sea
 
+  # Displays bizarrely on hextra once we change background colour
+  toc: false
+
   navbar:
     displayTitle: true
     displayLogo: true
@@ -107,7 +111,7 @@ params:
   theme:
     # light | dark | system
     default: system
-    displayToggle: true
+    displayToggle: false
 
   footer:
     enable: true
@@ -132,7 +136,7 @@ params:
       tokenize: forward
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
 
   blog:
