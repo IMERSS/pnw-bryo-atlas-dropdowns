@@ -1,0 +1,60 @@
+{
+    usage: {
+        key: '2681942',
+        name: 'Buckiella undulata (Hedw.) Ireland',
+        canonicalName: 'Buckiella undulata',
+        authorship: '(Hedw.) Ireland',
+        rank: 'SPECIES',
+        code: 'BOTANICAL',
+        status: 'SYNONYM',
+        genericName: 'Buckiella',
+        specificEpithet: 'undulata',
+        type: 'SCIENTIFIC',
+        formattedName: '<i>Buckiella</i> <i>undulata</i> (Hedw.) Ireland'
+    },
+    acceptedUsage: {
+        key: '5710930',
+        name: 'Plagiothecium undulatum (Hedw.) Schimp.',
+        canonicalName: 'Plagiothecium undulatum',
+        authorship: '(Hedw.) Schimp.',
+        rank: 'SPECIES',
+        code: 'BOTANICAL',
+        genericName: 'Plagiothecium',
+        specificEpithet: 'undulatum',
+        type: 'SCIENTIFIC',
+        formattedName: '<i>Plagiothecium</i> <i>undulatum</i> (Hedw.) Schimp.'
+    },
+    classification: [
+        { key: '6', name: 'Plantae', rank: 'KINGDOM' },
+        { key: '35', name: 'Bryophyta', rank: 'PHYLUM' },
+        { key: '327', name: 'Bryopsida', rank: 'CLASS' },
+        { key: '617', name: 'Hypnales', rank: 'ORDER' },
+        { key: '8752', name: 'Plagiotheciaceae', rank: 'FAMILY' },
+        { key: '2679600', name: 'Plagiothecium', rank: 'GENUS' },
+        {
+            key: '5710930',
+            name: 'Plagiothecium undulatum',
+            rank: 'SPECIES'
+        }
+    ],
+    diagnostics: {
+        matchType: 'EXACT',
+        confidence: 98,
+        timeTaken: 6,
+        timings: { nameNRank: 0, sciNameMatch: 6, nameParse: 0, luceneMatch: 6 }
+    },
+    synonym: true,
+    left: 1706379,
+    right: 1706379
+}
+
+{
+    matchType: 'EXACT',
+    gbifTaxonId: '2681942',
+    rank: 'SPECIES',
+    phylum: 'Bryophyta',
+    class: 'Bryopsida',
+    order: 'Hypnales',
+    family: 'Plagiotheciaceae',
+    genus: 'Plagiothecium'
+}

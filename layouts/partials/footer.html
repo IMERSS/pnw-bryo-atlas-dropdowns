@@ -33,7 +33,7 @@
     </div>
     {{- if $copyrightSectionVisible -}}
       <div class="imerss-copyright">
-        © 2025 IMERSS
+        © {{ now | dateFormat "2006"}} <a href="https://imerss.org">IMERSS</a> — Page built at {{ now | dateFormat "2006-01-02 15:04:05" }}
       </div>
     {{- end -}}
 </footer>

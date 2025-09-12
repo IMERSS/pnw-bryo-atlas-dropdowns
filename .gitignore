@@ -5,5 +5,11 @@
 .Rproj.user
 .Rhistory
 
+env.json
+
 .idea/
 
+tabular_data/*.csv
+
+google-api-key.txt
+pnw-bryo-atlas-e1fb9a5765ea.json

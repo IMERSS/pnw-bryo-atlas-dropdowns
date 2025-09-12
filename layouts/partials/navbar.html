@@ -2,25 +2,41 @@
 {{- $logoLink := .Site.Params.navbar.logo.link | default .Site.Home.RelPermalink -}}
 {{- $logoWidth := .Site.Params.navbar.logo.width | default "20" -}}
 {{- $logoHeight := .Site.Params.navbar.logo.height | default "20" -}}
-{{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
 
-<div class="nav-container hx-sticky hx-top-0 hx-w-full hx-bg-transparent print:hx-hidden">
+{{- $navWidth := "hx-max-w-[90rem]" -}}
+{{- with .Site.Params.navbar.width -}}
+  {{ if eq . "normal" -}}
+    {{ $navWidth = "hx-max-w-screen-xl" -}}
+  {{ else if eq . "full" -}}
+    {{ $navWidth = "max-w-full" -}}
+  {{ end -}}
+{{- end -}}
 
-  <div class="imerss-navbar-background">
+<link id="site-root-marker" href="{{ "/" | relURL }}">
 
-  </div>
-  <div class="imerss-navbar">
-      {{- if (.Site.Params.navbar.displayTitle | default true) }}
-      <a class="hx-flex hx-items-center hover:hx-opacity-75" href="{{ $logoLink }}">
-          <span class="imerss-navbar-title hx-mx-2 hx-font-extrabold hx-inline hx-select-none" title="{{ .Site.Title }}">{{- .Site.Title -}}</span>
-      </a>
-      {{- end }}
-      {{- if (.Site.Params.navbar.displayLogo | default true) }}
-      <a class="hx-flex hx-items-center hover:hx-opacity-75" href="{{ $logoLink }}">
-          <img src="{{ $logoPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
-      </a>
-      {{- end }}
-    </a>
-  </div>
+<div class="nav-container hx-sticky hx-top-0 hx-z-20 hx-w-full print:hx-hidden">
+    <div class="topnav">
+        <a class="hx-flex hx-items-center hover:hx-opacity-75" href="{{ $logoLink }}">
+          {{- if (.Site.Params.navbar.displayLogo | default true) }}
+            <img class="hx-block dark:hx-hidden" src="{{ $logoPath | relURL }}" alt="{{ .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+          {{- end }}
+          {{- if (.Site.Params.navbar.displayTitle | default true) }}
+            <span class="" title="{{ .Site.Title }}">{{- .Site.Title -}}</span>
+          {{- end }}
+        </a>
+
+        <button type="button" aria-label="Menu" class="hamburger-menu -hx-mr-2 hx-rounded hx-p-2 active:hx-bg-gray-400/20 md:hx-hidden">
+          {{- partial "utils/icon.html" (dict "name" "hamburger-menu" "attributes" "height=24") -}}
+        </button>
+    </div>
+
+    <div class="navbar">
+        {{- partial "subnav.html" . -}}
+    </div>
 
 </div>
+
+
+
+
+<script defer src="/js/subnav.js"></script>

@@ -1,0 +1,66 @@
+{
+  "usage": {
+    "key": "2689554",
+    "name": "Apotreubia nana (S.Hatt. & Inoue) S.Hatt. & Mizut.",
+    "canonicalName": "Apotreubia nana",
+    "authorship": "(S.Hatt. & Inoue) S.Hatt. & Mizut.",
+    "rank": "SPECIES",
+    "code": "BOTANICAL",
+    "status": "ACCEPTED",
+    "genericName": "Apotreubia",
+    "specificEpithet": "nana",
+    "type": "SCIENTIFIC",
+    "formattedName": "<i>Apotreubia</i> <i>nana</i> (S.Hatt. & Inoue) S.Hatt. & Mizut."
+  },
+  "classification": [
+    {
+      "key": "6",
+      "name": "Plantae",
+      "rank": "KINGDOM"
+    },
+    {
+      "key": "9",
+      "name": "Marchantiophyta",
+      "rank": "PHYLUM"
+    },
+    {
+      "key": "127",
+      "name": "Haplomitriopsida",
+      "rank": "CLASS"
+    },
+    {
+      "key": "917",
+      "name": "Treubiales",
+      "rank": "ORDER"
+    },
+    {
+      "key": "2295",
+      "name": "Treubiaceae",
+      "rank": "FAMILY"
+    },
+    {
+      "key": "2689553",
+      "name": "Apotreubia",
+      "rank": "GENUS"
+    },
+    {
+      "key": "2689554",
+      "name": "Apotreubia nana",
+      "rank": "SPECIES"
+    }
+  ],
+  "diagnostics": {
+    "matchType": "EXACT",
+    "confidence": 99,
+    "timeTaken": 10,
+    "timings": {
+      "nameNRank": 0,
+      "sciNameMatch": 11,
+      "nameParse": 0,
+      "luceneMatch": 11
+    }
+  },
+  "synonym": false,
+  "left": 1728987,
+  "right": 1728987
+}

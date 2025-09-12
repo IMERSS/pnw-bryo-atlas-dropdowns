@@ -1,4 +1,5 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&display=swap";
+/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&display=swap"; */
+@import "https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i&display=swap";
 
 table {
   /* Override absolutely insane display:block in hextra core style */
@@ -6,121 +7,262 @@ table {
 }
 
 :root {
-    --bs-body-font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --bs-body-font-family: "Inter", sans-serif;
     /** This only controls the bizarre height calculation for the page **/
     --navbar-height: 12rem;
 
-    font-family: var(--bs-body-font-family)
+    font-family: var(--bs-body-font-family);
+    color: rgb(31 41 55);
+    --dark-text: rgb(17 24 39);
+    --mid-text: rgb(55 65 81); /* text-gray-700 */
+    --light-text: rgb(107 114 128);
+    --link-color: rgb(21 128 61); /* green-700 */
 }
 
-body {
-    background-color: #184E62;
-    color: #FDF2CE;
+a {
+    color: var(--link-color);
 }
 
-/** Override absolutely ridiculous tailwind hardcoded content colour **/
-main .content h3, main.content h2, main h1 {
-    color: #FDF2CE !important;
+a:hover {
+    text-decoration: underline;
 }
 
-.imerss-main {
-    display: flex;
-}
 
-.imerss-map {
-    width: 60%;
-    background: url("../images/salish-sea.jpg") no-repeat;
-    background-size: cover;
-    z-index: 5;
+h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
 }
-
 
 /** Defeat side matter which screws up layout when page is wide **/
 .xl\:hx-block {
     display: none !important;
 }
 
-.imerss-page {
-    width: 40%;
+/** Overall top nav bar with title **/
+.nav-container {
+    justify-content: center;
+    background-color: white;
 }
 
-.imerss-navbar-title {
-    color: #FDF2CE;
-    font-weight: 700;
-    font-size: 22px;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-}
-
-.imerss-bg-neutral-50 {
-    background-color: #ffffff80;
-}
-
-nav a span {
-    color: #FDF2CE;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-nav a {
-    position: relative;
-}
-
-.imerss-navbar-background {
-    background: url("../images/imerss-header-cropped.jpg") no-repeat;
-    background-size: cover;
-    height: 160px;
-    width: 100%;
-    position: fixed;
-}
-
-.imerss-navbar {
-    justify-content: space-between;
+.nav-container .topnav {
+    --tw-shadow: 0 2px 4px rgba(0,0,0,.02),0 1px 0 rgba(0,0,0,.06);
+    box-shadow: var(--tw-shadow);
     display: flex;
-    height: 100px;
+    justify-content: center;
 }
 
-/* Weird trick inherited from docsy for filtering background image */
-
-.imerss-navbar::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: #184E6280;
+.nav-container .topnav a {
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(27 129 63);
+    letter-spacing: -0.025em;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+    display: flex;
 }
 
-.imerss-navbar a, .imerss-subnav a, .imerss-subnav .search-wrapper {
+.nav-container a:hover {
+    text-decoration: none;
+}
+
+/** Inner nav bar with dropdown menu links **/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: relative;
-    z-index: 2;
+    z-index: 10;
+    padding: 1rem 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.imerss-navbar img {
-    margin-right: 12px;
+
+.navbar-items {
+    display: flex;
+    color: rgb(55 65 81); /* text-gray-700 */
+    font-weight: 600;
 }
 
-.imerss-navbar span {
-    margin-left: 16px;
+.navbar-items > *:hover {
+    color: var(--link-color);
 }
 
-.imerss-subnav {
-    position: relative;
-    font-size: 16px;
+.navbar-phylum {
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
 }
 
-.imerss-subnav::after {
-    content: "";
+.imerss-copyright {
+    padding: 1rem;
+}
+
+#svg-defs {
+    height: 0px;
     position: absolute;
-    inset: 0;
-    background-color: #184E62b0;
 }
 
 
+/** Remove lots of top padding **/
+
+h1 {
+    display: none;
+}
+main {
+    margin-top: 0;
+}
+
+#title-block-header {
+    margin-block-end: 0;
+}
+
+h2 {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Top-level phylum button */
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    user-select: none;
+}
+
+.dropdown-button svg {
+    margin-left: 0.25rem;
+    vertical-align: middle;
+}
+
+/* Generic dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    min-width: 12rem;
+    z-index: 100;
+    padding: 0.3rem 0;
+}
+
+/* Dropdown items */
+.dropdown-item {
+    position: relative;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.dropdown-item a {
+    text-decoration: none;
+    color: var(--mid-text);
+}
+
+.dropdown-item:hover {
+    background: #f0fdf4;
+}
+
+.dropdown-item svg {
+    margin-left: 0.25rem;
+}
+
+/* Submenu positioning */
+.dropdown-item .dropdown-menu {
+    top: -0.3rem;
+    left: 100%;
+}
+
+/* Hover for submenus */
+.dropdown-item:hover > .dropdown-menu {
+    display: block;
+}
+
+/* Active/open state for phylum */
+.dropdown-button.active > .dropdown-menu {
+    display: block;
+}
+
+
+.container {
+    padding: 3rem 1.5rem;
+    background-color: rgb(243 244 246);
+}
+
+.imerss-content {
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255 255 255);
+    border-radius: 0.5rem;
+}
 
 footer {
     color: black;
 }
 
-.imerss-copyright {
-    padding: 1rem;
+.search-wrapper input {
+    border-radius: 100px;
+    border-color: rgb(229 231 235);
+    border-width: 2px;
+    background-color: rgb(243 244 246);
+    outline: 2px solid transparent;
+    padding: 0.5rem 5px 0.5rem 2.5rem;
+}
+
+.search-wrapper input:focus {
+    border-color: rgb(21 128 61);
+}
+
+/* Stolen for search */
+
+.search-icon {
+    left: 0px;
+    position: absolute;
+    pointer-events: none;
+    align-items: center;
+    padding-left: 0.7rem;
+}
+
+.clear-search-button {
+    position: absolute;
+    right: 10px;
+    display: none;
+    outline: none;
+    color: var(--light-text);
+}
+
+.search-wrapper input:not(:placeholder-shown) + .clear-search-button {
+    display: inline;
+}
+
+.clear-search-button:hover {
+    color: var(--link-color);
+}
+
+.search-wrapper .excerpt {
+    display: none;
+}
+
+.h-5 {
+    height: 1.25rem;
+}
+
+/** Used for search icon */
+.text-gray-400 {
+    color: rgb(156 163 175);
 }

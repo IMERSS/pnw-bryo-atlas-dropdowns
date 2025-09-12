@@ -1,0 +1,36 @@
+{
+  "name": "pnw-bryo-atlas",
+  "version": "1.0.0",
+  "description": "Atlas of Bryophytes of the Pacific Northwest",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IMERSS/pnw-bryo-atlas.git"
+  },
+  "author": "IMERSS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IMERSS/pnw-bryo-atlas/issues"
+  },
+  "homepage": "https://github.com/IMERSS/pnw-bryo-atlas#readme",
+  "dependencies": {
+    "googleapis": "149.0.0",
+    "p-limit": "3.1.0",
+    "sharp": "0.32.6",
+    "csv-parser": "3.0.0",
+    "csv-stringify": "6.5.0",
+    "node-fetch": "2.6.7",
+    "mustache": "^4.2.0",
+    "maplibre-gl": "4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-fluid": "2.1.1"
+  }
+}

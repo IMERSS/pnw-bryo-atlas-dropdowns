@@ -1,6 +1,6 @@
 # Configuration
 baseURL: "/"
-title: Biodiversity Change in the Salish Sea
+title: Bryophytes of the Pacific Northwest
 
 relativeUrls: true
 publishDir: docs
@@ -8,9 +8,10 @@ publishDir: docs
 theme: "hextra"
 
 enableRobotsTXT: true
-enableGitInfo: true
+enableGitInfo: false
 # enableEmoji: false
 hasCJKLanguage: false
+disablePathToLower: true
 
 # services:
 #   googleAnalytics:
@@ -47,49 +48,19 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: home
-      name: Home
-      pageRef: /
-      weight: 1
-    - identifier: data
-      name: Data
-      pageRef: /data
-      weight: 2
-    - identifier: projects
-      name: Projects
-      pageRef: /projects
-      weight: 3
-    - identifier: docs
-      name: Docs
-      pageRef: /documentation
-      weight: 4
     - name: Search
       weight: 5
       params:
         type: search
     - name: GitHub
       weight: 6
-      url: "https://github.com/IMERSS/salish-sea-biodiversity"
+      url: "https://github.com/IMERSS/pnw-bryo-atlas"
       params:
         icon: github
 
-  sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
-      weight: 1
-    - identifier: about
-      name: "About"
-      pageRef: "/about"
-      weight: 2
-    - identifier: hugoDocs
-      name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
-      weight: 3
 
 params:
-  description: Biodiversity Change in the Salish Sea
+  description: Bryophytes of the Pacific Northwest
 
   # Displays bizarrely on hextra once we change background colour
   toc: false
@@ -98,9 +69,9 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/imerss.png
-      width: 200
-      # height: 60
+      path: images/bryo logo.jpg
+      width: 80
+      # height: 80
       # link: /
     width: wide
 
