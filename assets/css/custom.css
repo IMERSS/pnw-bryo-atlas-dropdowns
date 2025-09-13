@@ -61,6 +61,18 @@ h2 {
     display: flex;
 }
 
+@media screen and (max-width: 950px){
+    .nav-container .topnav a {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .nav-container .topnav a {
+        font-size: 24px;
+    }
+}
+
 .nav-container a:hover {
     text-decoration: none;
 }
@@ -154,7 +166,24 @@ h2 {
     min-width: 12rem;
     z-index: 100;
     padding: 0.3rem 0;
+
+    max-height: calc(100vh - 180px);
+    overflow-y: auto;
+
+    width: max-content;
+    max-width: calc(100vw - 40px);
 }
+
+.dropdown-portal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+}
+
 
 /* Dropdown items */
 .dropdown-item {
@@ -187,10 +216,18 @@ h2 {
     left: 100%;
 }
 
+.dropdown-menu.show {
+    display: block;
+    /** To cut through the portal's invisibility */
+    pointer-events: all;
+}
+
 /* Hover for submenus */
+/*
 .dropdown-item:hover > .dropdown-menu {
     display: block;
 }
+ */
 
 /* Active/open state for phylum */
 .dropdown-button.active > .dropdown-menu {

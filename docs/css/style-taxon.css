@@ -100,8 +100,10 @@
     column-gap: 1.5rem;
     border-top-width: 1px;
     border-bottom-width: 1px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    flex-wrap: wrap;
+    line-height: 2;
 }
 
 .imerss-image-holder {
