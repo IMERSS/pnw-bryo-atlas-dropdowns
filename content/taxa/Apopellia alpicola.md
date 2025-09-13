@@ -1,7 +1,7 @@
 ---
 title: Apopellia alpicola
 url: /taxa/Apopellia alpicola
-image: "../img/Liverworts&#x2F;Pelliaceae&#x2F;Apopellia_alpicola &#x2F;macro_pics&#x2F;Apopellia_alpicola_RM_01 .jpeg"
+image: "../img/Liverworts&#x2F;Pelliaceae&#x2F;Apopellia_alpicola&#x2F;macro_pics&#x2F;Apopellia_alpicola_RM_01.jpeg"
 categories:
   - Marchantiophyta
 ---
@@ -64,7 +64,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Pelliaceae&#x2F;Apopellia_alpicola &#x2F;macro_pics&#x2F;Apopellia_alpicola_RM_01 .jpeg)"
+       style="background-image: url(../../img/Liverworts&#x2F;Pelliaceae&#x2F;Apopellia_alpicola&#x2F;macro_pics&#x2F;Apopellia_alpicola_RM_01.jpeg)"
        title="Randal Mindell">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
@@ -86,7 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Pelliaceae&#x2F;Apopellia_alpicola &#x2F;macro_pics&#x2F;Apopellia_alpicola_BJ_01 .jpeg)"
+       style="background-image: url(../../img/Liverworts&#x2F;Pelliaceae&#x2F;Apopellia_alpicola&#x2F;macro_pics&#x2F;Apopellia_alpicola_BJ_01.jpeg)"
        title="Braden Judson">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
@@ -108,7 +108,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Pelliaceae&#x2F;Apopellia_alpicola &#x2F;macro_pics&#x2F;Apopellia_alpicola_FM_01 .jpeg)"
+       style="background-image: url(../../img/Liverworts&#x2F;Pelliaceae&#x2F;Apopellia_alpicola&#x2F;macro_pics&#x2F;Apopellia_alpicola_FM_01.jpeg)"
        title="Finn McGhee">
     <div class="imerss-image-copy"> © Finn McGhee</div>
   </div>
