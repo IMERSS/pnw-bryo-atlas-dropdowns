@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Sphenolobus">Sphenolobus</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Schreb. ex Cranz) Berggr.</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Sphenolobus minutus (Schreb. ex Cranz) Berggr.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

@@ -33,7 +33,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Calypogeia">Calypogeia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ </span>
+<a href="https://www.gbif.org/species/2689325">
+<span class="scientific-name">Calypogeia </span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

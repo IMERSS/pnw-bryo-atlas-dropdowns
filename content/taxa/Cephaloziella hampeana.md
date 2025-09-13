@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Cephaloziella">Cephaloziella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Nees) Schiffn. ex Loeske</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Cephaloziella hampeana (Nees) Schiffn. ex Loeske</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

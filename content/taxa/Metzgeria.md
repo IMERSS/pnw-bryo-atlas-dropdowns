@@ -33,7 +33,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Metzgeria">Metzgeria</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ </span>
+<a href="https://www.gbif.org/species/2689517">
+<span class="scientific-name">Metzgeria </span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

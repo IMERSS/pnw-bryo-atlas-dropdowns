@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Rhizomnium">Rhizomnium</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Kindb.) T.J.Kop.</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Rhizomnium glabrescens (Kindb.) T.J.Kop.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

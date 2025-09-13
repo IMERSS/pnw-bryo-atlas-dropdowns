@@ -33,7 +33,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Vinealobryum">Vinealobryum</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ </span>
+<a href="https://www.gbif.org/species/12007700">
+<span class="scientific-name">Vinealobryum </span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Neoorthocaulis">Neoorthocaulis</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Kaal.) L.Söderstr., De Roo &amp; Hedd.</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Neoorthocaulis binsteadii (Kaal.) L.Söderstr., De Roo &amp; Hedd.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

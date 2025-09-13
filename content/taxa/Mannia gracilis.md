@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Mannia">Mannia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (F.Weber) D.B.Schill &amp; D.G.Long</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Mannia gracilis (F.Weber) D.B.Schill &amp; D.G.Long</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

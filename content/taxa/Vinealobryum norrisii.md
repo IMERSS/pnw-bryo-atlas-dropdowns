@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Vinealobryum">Vinealobryum</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (R.H. Zander) J.A. Jiménez &amp; M.J. Cano</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Vinealobryum norrisii (R.H. Zander) J.A. Jiménez &amp; M.J. Cano</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

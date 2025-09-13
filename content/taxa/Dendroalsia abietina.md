@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Dendroalsia">Dendroalsia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Hook.) E.Britton ex Broth.</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Dendroalsia abietina (Hook.) E.Britton ex Broth.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

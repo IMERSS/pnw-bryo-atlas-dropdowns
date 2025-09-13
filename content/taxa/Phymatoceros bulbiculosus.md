@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Phymatoceros">Phymatoceros</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Brot.) Stotler, W.T.Doyle &amp; Crand.-Stotl.</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Phymatoceros bulbiculosus (Brot.) Stotler, W.T.Doyle &amp; Crand.-Stotl.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

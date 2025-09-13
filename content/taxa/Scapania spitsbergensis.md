@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Scapania">Scapania</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Lindb.) Müll.Frib.</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Scapania spitsbergensis (Lindb.) Müll.Frib.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

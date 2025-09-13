@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Tetralophozia">Tetralophozia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Ehrh.) Schljakov</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Tetralophozia setiformis (Ehrh.) Schljakov</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

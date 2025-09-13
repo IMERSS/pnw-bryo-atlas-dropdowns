@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Barbilophozia">Barbilophozia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Wallr.) Loeske</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Barbilophozia lycopodioides (Wallr.) Loeske</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

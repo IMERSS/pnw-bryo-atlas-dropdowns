@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Calypogeia">Calypogeia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Arnell &amp; J.Perss.) Warnst. &amp; Loeske</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Calypogeia sphagnicola (Arnell &amp; J.Perss.) Warnst. &amp; Loeske</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Asterella">Asterella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ (Corda ex Nees) Lindb.</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Asterella lindenbergiana (Corda ex Nees) Lindb.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

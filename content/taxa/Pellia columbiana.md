@@ -32,7 +32,8 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Pellia">Pellia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/ Krajina &amp; Brayshaw</span>
+<a href="https://www.gbif.org/species/">
+<span class="scientific-name">Pellia columbiana Krajina &amp; Brayshaw</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>

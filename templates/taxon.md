@@ -41,7 +41,7 @@ categories:
    </div>
   {{/genus}}
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/{{gbifTaxonId}">
+<a href="https://www.gbif.org/species/{{gbifTaxonId}}">
 <span class="scientific-name">{{taxon}} {{authority}}</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
